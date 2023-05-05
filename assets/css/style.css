@@ -1,8 +1,4 @@
 /*------------------------------------------------------------------------------------
-Theme Name: GamFi - Metaverse Web3 IGO/IDO Token Launchpad HTML 5 Template
-Theme URL: #
-Author: uigigs
-Author URL: http://www.uigigs.com/
 version: 1.0.0
 ------------------------------------------------------------------------------------*/
 /*------------------------------------------------------------------------------------
@@ -19,8 +15,7 @@ CSS table of content
 01. Settings style
 --------------------------------*/
 /*font family included*/
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Russo+One&amp;display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;700&amp;display=swap");
 /*--------------------------------
 02. Base style
 --------------------------------*/
@@ -28,12 +23,12 @@ html,
 body {
   font-size: 16px;
   color: rgba(255, 255, 255, 0.7);
-  font-family: "Inter", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   vertical-align: baseline;
   line-height: 1.6;
   font-weight: 500;
   overflow-x: hidden;
-  background-color: #151625;
+  background-color: #0f1a2f;
 }
 
 img {
@@ -52,7 +47,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   color: #FFFFFF;
   margin: 0 0 26px;
   line-height: 1.35;
@@ -91,7 +86,7 @@ h6 {
   font-size: 16px;
   font-weight: 400;
   text-transform: uppercase;
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
 }
 
 .sec-heading .heading-left-image {
@@ -257,7 +252,6 @@ body .modal-backdrop {
   z-index: 9;
   overflow: hidden;
   padding: 170px 0 225px;
-  background: url("../images/bg/banner-bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -377,7 +371,7 @@ body .modal-backdrop {
 .gamfi-about-secion .text-content,
 .gamfi-about-secion .allocation,
 .gamfi-about-secion .targeted-raise {
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
 }
 
 .gamfi-about-secion .game-price-inner,
@@ -387,11 +381,11 @@ body .modal-backdrop {
 }
 
 .gamfi-about-secion .total-price .all-raise {
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
 }
 
 .gamfi-about-secion .targeted-raise .all-raise {
-  font-family: "Inter", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
 }
 
 .gamfi-about-secion .total-price,
@@ -600,7 +594,6 @@ body .modal-backdrop {
 
 /*--- Gamfi Project Section CSS ---*/
 .gamfi-project-section {
-  background: url("../images/bg/project-bg.jpg");
   padding-top: 115px;
   padding-bottom: 105px;
   background-size: cover;
@@ -648,7 +641,6 @@ body .modal-backdrop {
   width: 197px;
   height: 35px;
   content: "";
-  background-image: url("../images/bg/shape-bg.png");
   position: absolute;
   left: -30px;
   top: -7px;
@@ -733,7 +725,7 @@ body .modal-backdrop {
 }
 
 .previous-mainmenu .menu-list {
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
 }
 
 .previous-mainmenu .menu-list.date-menu {
@@ -806,20 +798,20 @@ body .modal-backdrop {
 
 .gamfi-previous-section .form-check {
   padding: 17px 68px;
-  cursor: pointer;
+  cursor: poSpace Grotesk;
 }
 
 .gamfi-previous-section .form-check input,
 .gamfi-previous-section .form-check label {
-  cursor: pointer;
+  cursor: poSpace Grotesk;
 }
 
 .gamfi-previous-section .form-switch {
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   text-transform: uppercase;
   -webkit-transition: 0.4s;
   transition: 0.4s;
-  cursor: pointer;
+  cursor: poSpace Grotesk;
   border-right: 0px;
   padding: 18px 28px;
 }
@@ -847,7 +839,7 @@ body .modal-backdrop {
 
 .gamfi-previous-section .form-switch .slider {
   position: absolute;
-  cursor: pointer;
+  cursor: poSpace Grotesk;
   top: 0;
   left: 0;
   right: 0;
@@ -1061,7 +1053,6 @@ body .modal-backdrop {
   width: 197px;
   height: 35px;
   content: "";
-  background-image: url("../images/bg/shape-bg.png");
   position: absolute;
   left: -30px;
   top: -7px;
@@ -1128,7 +1119,7 @@ body .modal-backdrop {
 }
 
 .gamfi-previous-section .calender-image-area img {
-  cursor: pointer;
+  cursor: poSpace Grotesk;
 }
 
 .gamfi-previous-section .calender-image-area .project-item {
@@ -1170,14 +1161,12 @@ body .modal-backdrop {
 }
 
 .gamfi-tokenomics-section .tokenomics-left-right-shape::before {
-  background-image: url("../images/banner/left_shape.png");
   width: 614px;
   top: 0;
   left: 0;
 }
 
 .gamfi-tokenomics-section .tokenomics-left-right-shape::after {
-  background-image: url("../images/banner/right_shape.png");
   bottom: 0;
   right: 0;
 }
@@ -1217,7 +1206,7 @@ body .modal-backdrop {
 }
 
 .v1_tokenomics_content_list_text h4 {
-  font-family: "Inter", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -1227,7 +1216,7 @@ body .modal-backdrop {
 }
 
 .v1_tokenomics_content_list_text h5 {
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -1317,16 +1306,15 @@ body .modal-backdrop {
 .tokenomics-counter .counter-number {
   font-size: 36px;
   color: #6D4AFE;
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   display: block;
 }
 
 /*--- Gamfi Team Section CSS ---*/
 .gamfi-team-section {
-  background: url("../images/bg/team-bg.jpg");
   background-repeat: no-repeat;
   background-position: center bottom;
-  background-color: #090A1A;
+  background-color: #111111;
 }
 
 .team-item {
@@ -1489,12 +1477,11 @@ body .modal-backdrop {
   position: relative;
   z-index: 2;
   margin-bottom: 200px;
-  background: #090A1A;
+  background: #111111;
 }
 
 .gamfi_header_v2 {
   min-height: 800px;
-  background: url("../images/bg/bgV2.png");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1509,7 +1496,7 @@ body .modal-backdrop {
 }
 
 .gamfi_v2_hero_left h2 {
-  font-family: Russo One;
+  font-family: Space Grotesk;
   font-style: normal;
   font-weight: normal;
   font-size: 50px;
@@ -1524,7 +1511,7 @@ body .modal-backdrop {
 }
 
 .gamfi_v2_hero_left p {
-  font-family: Inter;
+  font-family: Space Grotesk;
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
@@ -1548,7 +1535,7 @@ body .modal-backdrop {
 }
 
 .buy-token-logos h6 {
-  font-family: Russo One;
+  font-family: Space Grotesk;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -1890,7 +1877,7 @@ body .modal-backdrop {
 }
 
 .market_cap_content h2 {
-  font-family: Russo One;
+  font-family: Space Grotesk;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -1900,7 +1887,7 @@ body .modal-backdrop {
 }
 
 .market_cap_content h3 {
-  font-family: Russo One;
+  font-family: Space Grotesk;
   font-style: normal;
   font-weight: normal;
   font-size: 22px;
@@ -1963,7 +1950,7 @@ body .modal-backdrop {
 }
 
 .gamfi-project-section .project-item .heading-title .price-counter .timer ul li {
-  font-family: Russo One;
+  font-family: Space Grotesk;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -2031,7 +2018,7 @@ body .modal-backdrop {
 }
 
 .project_v2_tab_btns ul li button .btn-text {
-  font-family: Russo One;
+  font-family: Space Grotesk;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -2045,7 +2032,7 @@ body .modal-backdrop {
   /*
     background: url(../images/bg/project-bg.jpg);
     */
-  background: #090A1A;
+  background: #111111;
   padding-top: 115px;
   padding-bottom: 105px;
 }
@@ -2057,7 +2044,6 @@ body .modal-backdrop {
 
 .key_points_section .key_points_bg {
   position: absolute;
-  background: url("../images/bg/project-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -2188,7 +2174,7 @@ body .modal-backdrop {
 }
 
 .key_points_section {
-  background: #090A1A;
+  background: #111111;
   padding-top: 115px;
   padding-bottom: 105px;
   position: relative;
@@ -2208,7 +2194,7 @@ body .modal-backdrop {
 }
 
 .key_points_item_text h3 {
-  font-family: Russo One;
+  font-family: Space Grotesk;
   font-style: normal;
   font-weight: normal;
   font-size: 22px;
@@ -2221,7 +2207,7 @@ body .modal-backdrop {
 .key_points_item_text p {
   max-width: 249px;
   width: 100%;
-  font-family: Inter;
+  font-family: Space Grotesk;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -2230,7 +2216,7 @@ body .modal-backdrop {
 }
 
 .tier_system_section {
-  background: #090A1A;
+  background: #111111;
   padding-top: 0px;
   padding-bottom: 105px;
 }
@@ -2253,7 +2239,7 @@ body .modal-backdrop {
 }
 
 .tier_system_headings ul li {
-  font-family: Russo One;
+  font-family: Space Grotesk;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -2340,7 +2326,7 @@ body .modal-backdrop {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  font-family: Inter;
+  font-family: Space Grotesk;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -2355,7 +2341,7 @@ body .modal-backdrop {
 }
 
 .tier_system_items ul li strong {
-  font-family: Russo One;
+  font-family: Space Grotesk;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -2472,7 +2458,7 @@ body .modal-backdrop {
 }
 
 .multi_chain_support_sect {
-  background: #090A1A;
+  background: #111111;
   padding-top: 0px;
   padding-bottom: 105px;
 }
@@ -2482,7 +2468,7 @@ body .modal-backdrop {
 }
 
 .multi_chain_support_right_content p {
-  font-family: Inter;
+  font-family: Space Grotesk;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -2518,7 +2504,7 @@ body .modal-backdrop {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  font-family: Inter;
+  font-family: Space Grotesk;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -2552,7 +2538,7 @@ body .modal-backdrop {
 }
 
 .gamfi_our_mentor_section {
-  background: #090A1A;
+  background: #111111;
   padding-top: 0px;
   padding-bottom: 105px;
 }
@@ -2601,7 +2587,7 @@ body .modal-backdrop {
 }
 
 .roadmap-tab-btns ul li button .btn-text {
-  font-family: Russo One;
+  font-family: Space Grotesk;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -2655,8 +2641,8 @@ body .modal-backdrop {
 }
 
 .our_partners_content_sect .overlay {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(9, 10, 26, 0)), to(#090A1A));
-  background: linear-gradient(180deg, rgba(9, 10, 26, 0) 0%, #090A1A 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(9, 10, 26, 0)), to(#111111));
+  background: linear-gradient(180deg, rgba(9, 10, 26, 0) 0%, #111111 100%);
   height: 158px;
   width: 100%;
   z-index: 2;
@@ -2695,10 +2681,10 @@ body .modal-backdrop {
 
 /* Style the Headings that are used to open and close the accordion panel */
 .faq_content_sect .faq_questions .accordion {
-  cursor: pointer;
+  cursor: poSpace Grotesk;
   background: rgba(30, 31, 53, 0.5);
   height: 76px;
-  font-family: Russo One;
+  font-family: Space Grotesk;
   font-style: normal;
   font-weight: normal;
   font-size: 22px;
@@ -2715,7 +2701,7 @@ body .modal-backdrop {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding: 24px 29px;
-  font-family: Russo One;
+  font-family: Space Grotesk;
   font-style: normal;
   font-weight: normal;
   font-size: 22px;
@@ -2766,7 +2752,7 @@ body .modal-backdrop {
 
 .faq_content_sect .faq_questions .accordion-panel p {
   padding: 0px 48px 24px 29px;
-  font-family: Inter;
+  font-family: Space Grotesk;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -2777,7 +2763,7 @@ body .modal-backdrop {
 }
 
 .faq_content_sect h6 {
-  font-family: Russo One;
+  font-family: Space Grotesk;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -2790,7 +2776,7 @@ body .modal-backdrop {
 }
 
 .faq_content_sect h6 a {
-  font-family: Russo One;
+  font-family: Space Grotesk;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -2829,7 +2815,7 @@ body .modal-backdrop {
   height: 60px;
   padding: 8px 19px;
   background: transparent;
-  font-family: Inter;
+  font-family: Space Grotesk;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -2842,7 +2828,7 @@ body .modal-backdrop {
 }
 
 .roadmap_contents h3 {
-  font-family: Russo One;
+  font-family: Space Grotesk;
   font-style: normal;
   font-weight: normal;
   font-size: 22px;
@@ -2889,7 +2875,7 @@ body .modal-backdrop {
 }
 
 .roadmap_list_sect ul li {
-  font-family: Inter;
+  font-family: Space Grotesk;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -2924,7 +2910,6 @@ body .modal-backdrop {
   z-index: 9;
   overflow: hidden;
   padding: 170px 0 225px;
-  background: url("../images/bg/V3_Banner_BG.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -2987,7 +2972,7 @@ body .modal-backdrop {
 .sc_banner_v3_left h2 {
   max-width: 499px;
   width: 100%;
-  font-family: Russo One;
+  font-family: Space Grotesk;
   font-style: normal;
   font-weight: normal;
   font-size: 50px;
@@ -3000,7 +2985,7 @@ body .modal-backdrop {
 .sc_banner_v3_left p {
   max-width: 564px;
   width: 100%;
-  font-family: Inter;
+  font-family: Space Grotesk;
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
@@ -3033,7 +3018,7 @@ body .modal-backdrop {
 }
 
 .sc_banner_v3_right ul li h3 {
-  font-family: Russo One;
+  font-family: Space Grotesk;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -3043,7 +3028,7 @@ body .modal-backdrop {
 }
 
 .sc_banner_v3_right ul li h4 {
-  font-family: Russo One;
+  font-family: Space Grotesk;
   font-style: normal;
   font-weight: normal;
   font-size: 22px;
@@ -3134,7 +3119,7 @@ body .modal-backdrop {
 }
 
 .multi_block_chains_left h3 {
-  font-family: Russo One;
+  font-family: Space Grotesk;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -3264,7 +3249,7 @@ body .modal-backdrop {
 }
 
 .how_to_participate_sect {
-  background: #090A1A;
+  background: #111111;
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -3296,7 +3281,7 @@ body .modal-backdrop {
 }
 
 .how_to_participate_left_content p {
-  font-family: Inter;
+  font-family: Space Grotesk;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -3357,7 +3342,7 @@ body .modal-backdrop {
 }
 
 .how_to_participate_right_card_text h4 {
-  font-family: Russo One;
+  font-family: Space Grotesk;
   font-style: normal;
   font-weight: normal;
   font-size: 22px;
@@ -3367,7 +3352,7 @@ body .modal-backdrop {
 }
 
 .how_to_participate_right_card_text p {
-  font-family: Inter;
+  font-family: Space Grotesk;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -3683,7 +3668,7 @@ body .modal-backdrop {
 }
 
 .gamfi-previous-section.project_clasic_previous_section .previous-item .previous_ends_in.list3_custom span {
-  font-family: "Inter", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -3693,7 +3678,7 @@ body .modal-backdrop {
 }
 
 .gamfi-previous-section .previous-item .previous-raise.list4_custom span {
-  font-family: "Inter", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -3703,7 +3688,7 @@ body .modal-backdrop {
 }
 
 .previous_clasic_custom_progress_sect p {
-  font-family: "Inter", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -3715,9 +3700,7 @@ body .modal-backdrop {
 
 /*--- Project page style ---*/
 /*--- Gamfi Project Details Section CSS ---*/
-.project-details-conent {
-  background: #090A1A;
-}
+
 
 .project-details-conent .game-price-item {
   margin-top: -90px;
@@ -3779,18 +3762,18 @@ body .modal-backdrop {
           align-items: center;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
-          justify-content: space-between;
+          justify-content: start;
 }
 
 .project-details-conent .project-item .date-listing li button {
-  cursor: pointer;
+  cursor: poSpace Grotesk;
   border: 2px solid;
   -webkit-transition: 0.4s;
   transition: 0.4s;
   color: #FFFFFF;
   padding: 12px 20px;
   border-color: #303244;
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   text-transform: uppercase;
   border: 1px solid #303244;
   outline: none;
@@ -3801,7 +3784,7 @@ body .modal-backdrop {
   display: inline-block;
   position: relative;
   overflow: hidden;
-  cursor: pointer;
+  cursor: poSpace Grotesk;
   background: transparent;
 }
 
@@ -3827,14 +3810,14 @@ body .modal-backdrop {
 }
 
 .project-details-conent .project-item .date-listing li label {
-  cursor: pointer;
+  cursor: poSpace Grotesk;
   border: 2px solid;
   -webkit-transition: 0.4s;
   transition: 0.4s;
   color: #FFFFFF;
   padding: 12px 20px;
   border-color: #303244;
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   text-transform: uppercase;
 }
 
@@ -3898,7 +3881,6 @@ body .modal-backdrop {
   width: 197px;
   height: 35px;
   content: "";
-  background-image: url("../images/bg/shape-bg.png");
   position: absolute;
   left: -30px;
   top: -7px;
@@ -3913,7 +3895,7 @@ body .modal-backdrop {
 .project-details-conent .project-item .big-text {
   font-size: 30px;
   color: #A3FF12;
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   position: absolute;
   right: 0;
   top: 10px;
@@ -3957,7 +3939,7 @@ body .modal-backdrop {
   -webkit-transition: 0.4S;
   transition: 0.4S;
   text-transform: uppercase;
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   padding-left: 30px;
   padding-right: 30px;
   width: 170px;
@@ -4065,7 +4047,7 @@ body .modal-backdrop {
 .project-details-conent table .table-header {
   background: #1E1F35;
   text-transform: uppercase;
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
 }
 
 .project-details-conent table .table-header th {
@@ -4168,7 +4150,7 @@ body .modal-backdrop {
   background: transparent;
   padding: 0;
   color: rgba(255, 255, 255, 0.7);
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   margin-bottom: 25px;
 }
 
@@ -4262,7 +4244,7 @@ body .modal-backdrop {
 
 .project-menu-area .project-left-menu .tab-link {
   background: transparent;
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   position: relative;
   text-transform: uppercase;
   color: rgba(255, 255, 255, 0.7);
@@ -4402,7 +4384,7 @@ body .modal-backdrop {
 
 /*--- Gamfi Explore Content Section CSS ---*/
 .gamfi-explore-content {
-  background: #090A1A;
+  background: #111111;
 }
 
 .gamfi-explore-content .project-menu-area {
@@ -4436,7 +4418,6 @@ body .modal-backdrop {
   width: 197px;
   height: 35px;
   content: "";
-  background-image: url("../images/bg/shape-bg.png");
   position: absolute;
   left: -30px;
   top: -7px;
@@ -4535,7 +4516,6 @@ body .gamfi-explore-content .project-item {
 .project_clasic_2_timer {
   width: 241.8px;
   height: 35px;
-  background-image: url("../images/bg/shape-bg.png");
   background-size: cover;
   background-position: center center;
   -webkit-box-align: center;
@@ -4563,7 +4543,7 @@ body .gamfi-explore-content .project-item {
 }
 
 .project_clasic_2_timer .price-counter .timer ul li {
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -4588,7 +4568,7 @@ body .gamfi-explore-content .project-item {
 }
 
 .project_clasic_2_container_right_headings h2 a {
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 30px;
@@ -4599,7 +4579,7 @@ body .gamfi-explore-content .project-item {
 }
 
 .project_clasic_2_container_right_headings p {
-  font-family: "Inter", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -4622,7 +4602,7 @@ body .gamfi-explore-content .project-item {
 }
 
 .total_rised_progress_headings h3 {
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -4637,7 +4617,7 @@ body .gamfi-explore-content .project-item {
 }
 
 .total_rised_progress_headings p {
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -4775,7 +4755,7 @@ body .gamfi-explore-content .project-item {
 }
 
 .total_rised_progress_sale_airdrop_sect p {
-  font-family: "Inter", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -4830,7 +4810,7 @@ body .gamfi-explore-content .project-item {
 }
 
 .access_allocation_participants_sect ul li span {
-  font-family: "Inter", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -4839,7 +4819,7 @@ body .gamfi-explore-content .project-item {
 }
 
 .access_allocation_participants_sect ul li p {
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -4888,7 +4868,7 @@ body .gamfi-explore-content .project-item {
 }
 
 .project_clasic_slider_sect .project_clasic_prev, .project_clasic_next {
-  cursor: pointer;
+  cursor: poSpace Grotesk;
   position: absolute;
   top: 50%;
   width: auto;
@@ -4970,7 +4950,7 @@ body .gamfi-explore-content .project-item {
 }
 
 .project_details_road_map_content h4 {
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -4988,7 +4968,7 @@ body .gamfi-explore-content .project-item {
 }
 
 .project_details_road_map_content ul li {
-  font-family: "Inter", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -5037,7 +5017,7 @@ body .gamfi-explore-content .project-item {
 }
 
 .project_details_team_members_card h5 {
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -5049,7 +5029,7 @@ body .gamfi-explore-content .project-item {
 }
 
 .project_details_team_members_card h6 {
-  font-family: "Inter", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -5132,7 +5112,7 @@ body .gamfi-explore-content .project-item {
 
 .project_summary_tabs_sect .project-summary-tab-btn a {
   background: transparent;
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -5350,13 +5330,12 @@ body .gamfi-explore-content .project-item {
 
 /*--- project clasic style ---*/
 .gamfi_project_clasic_project_sect {
-  background: #090A1A;
+  background: #111111;
   padding-top: 50px;
   padding-bottom: 92px;
 }
 
 .project_clasic_slider_bg {
-  background: url("../images/bg/ProjectClasic_sliderBg.png");
   min-height: 400px;
   width: 100%;
   background-position: center center;
@@ -5406,7 +5385,7 @@ body .gamfi-explore-content .project-item {
 }
 
 .project_clasic_slider_text_sect h3 a {
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 30px;
@@ -5416,7 +5395,7 @@ body .gamfi-explore-content .project-item {
 }
 
 .project_clasic_slider_text_sect p {
-  font-family: "Inter", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -5455,7 +5434,7 @@ body .gamfi-explore-content .project-item {
 }
 
 .project_clasic_slider_rise_content span {
-  font-family: "Inter", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -5465,7 +5444,7 @@ body .gamfi-explore-content .project-item {
 }
 
 .project_clasic_slider_rise_content h2 {
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -5481,7 +5460,7 @@ body .gamfi-explore-content .project-item {
   border: none;
   outline: none;
   background: #6D4AFE;
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -5522,7 +5501,7 @@ body .gamfi-explore-content .project-item {
 }
 
 .project_clasic_slider_right_timer h2 {
-  font-family: "Inter", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -5534,7 +5513,7 @@ body .gamfi-explore-content .project-item {
 }
 
 .project_clasic_slider_right_timer ul li {
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 30px;
@@ -5571,7 +5550,7 @@ body .gamfi-explore-content .project-item {
 }
 
 .access_allocation_text span {
-  font-family: "Inter", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -5581,7 +5560,7 @@ body .gamfi-explore-content .project-item {
 }
 
 .access_allocation_text h2 {
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -5618,7 +5597,7 @@ body .gamfi-explore-content .project-item {
 .project_clasic_slider_progress_sect .progress .title {
   position: relative;
   z-index: 100;
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 30px;
@@ -5699,7 +5678,7 @@ body .gamfi-explore-content .project-item {
 
 .calendar header .month,
 .calendar header .month .year {
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
@@ -5819,7 +5798,7 @@ body .gamfi-explore-content .project-item {
 }
 
 .calendar td img {
-  cursor: pointer;
+  cursor: poSpace Grotesk;
   width: auto;
   height: 34px;
 }
@@ -5842,7 +5821,7 @@ body .gamfi-explore-content .project-item {
 .list-menu li a {
   display: block;
   padding: 20px 28px;
-  font-family: "Inter", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
@@ -5939,7 +5918,7 @@ body .gamfi-explore-content .project-item {
 
 #eventModal {
   -ms-overflow-style: none;
-  /* Internet Explorer 10+ */
+  /* Space Grotesknet Explorer 10+ */
   scrollbar-width: none;
 }
 
@@ -6052,7 +6031,7 @@ body .gamfi-explore-content .project-item {
 
 .event-top h2 {
   margin-bottom: 13px;
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-weight: 400;
   font-size: 22px;
   line-height: 27px;
@@ -6061,7 +6040,7 @@ body .gamfi-explore-content .project-item {
 
 .event-top p {
   margin-bottom: 0;
-  font-family: "Inter", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
@@ -6075,7 +6054,7 @@ body .gamfi-explore-content .project-item {
 
 .event-time h2 {
   padding: 8px 56px 8px 35px;
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
@@ -6091,7 +6070,6 @@ body .gamfi-explore-content .project-item {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url("../images/bg/shape-bg.png");
   background-repeat: no-repeat;
 }
 
@@ -6119,7 +6097,7 @@ body .gamfi-explore-content .project-item {
 }
 
 .info-list li {
-  font-family: "Inter", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 45px;
@@ -6142,7 +6120,7 @@ body .gamfi-explore-content .project-item {
 
 /*--- ProjectDetails2 ---*/
 .project_details2_section {
-  background: #090A1A;
+  background: #111111;
   padding-top: 100px;
   padding-bottom: 140px;
   position: relative;
@@ -6207,7 +6185,7 @@ body .gamfi-explore-content .project-item {
 }
 
 .first_survivor_city_left_timer .price-counter ul li {
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
@@ -6236,7 +6214,7 @@ body .gamfi-explore-content .project-item {
 }
 
 .first_survivor_city_right_project_name h2 a {
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 30px;
@@ -6247,7 +6225,7 @@ body .gamfi-explore-content .project-item {
 
 .first_survivor_city_right_project_name span {
   margin-bottom: 0px;
-  font-family: "Inter", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -6269,7 +6247,7 @@ body .gamfi-explore-content .project-item {
 }
 
 .first_survivor_city_right_section p {
-  font-family: "Inter", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -6304,7 +6282,7 @@ body .gamfi-explore-content .project-item {
 }
 
 .pool_and_token_info_card h2 {
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
@@ -6362,7 +6340,7 @@ body .gamfi-explore-content .project-item {
 }
 
 .pool_and_token_info_list ul li p.pool_and_token_info_list_left {
-  font-family: "Inter", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -6371,7 +6349,7 @@ body .gamfi-explore-content .project-item {
 }
 
 .pool_and_token_info_list ul li p.pool_and_token_info_list_right {
-  font-family: "Inter", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -6388,7 +6366,7 @@ body .gamfi-explore-content .project-item {
 }
 
 .project_details2_schedule_table_sect h2 {
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
@@ -6437,7 +6415,7 @@ body .gamfi-explore-content .project-item {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -6501,7 +6479,7 @@ body .gamfi-explore-content .project-item {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  font-family: "Inter", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -6544,7 +6522,7 @@ body .gamfi-explore-content .project-item {
 }
 
 .project_details2_allocations_table_sect h2 {
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
@@ -6584,7 +6562,7 @@ body .gamfi-explore-content .project-item {
 }
 
 .project_details2_allocations_table_headings ul li {
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -6614,7 +6592,7 @@ body .gamfi-explore-content .project-item {
 }
 
 .project_details2_allocations_table_headings th {
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -6633,7 +6611,7 @@ body .gamfi-explore-content .project-item {
 
 
 .project_details2_allocations_table_body tr td {
-  font-family: "Inter", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -6700,7 +6678,7 @@ body .gamfi-explore-content .project-item {
 }
 
 .project_details2_allocations_table_body ul li {
-  font-family: "Inter", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -6756,7 +6734,7 @@ body .gamfi-explore-content .project-item {
   height: 40px;
   width: 120px;
   background: rgba(255, 255, 255, 0.1);
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -6769,7 +6747,7 @@ body .gamfi-explore-content .project-item {
 /*--- IGO Ranking page style ---*/
 /*--- Gamfi Igo-Rankging Section CSS ---*/
 .igo-rankging-table-list {
-  background: #090A1A;
+  background: #111111;
 }
 
 .igo-rankging-table-list table {
@@ -6824,7 +6802,7 @@ body .gamfi-explore-content .project-item {
 }
 
 .igo-rankging-table-list tr th {
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   color: rgba(255, 255, 255, 0.7);
   font-weight: 400;
   text-transform: uppercase;
@@ -6856,7 +6834,7 @@ body .gamfi-explore-content .project-item {
 /*--- blog style ---*/
 .latest_articles_sect {
   padding: 71px 0px 100px 0px;
-  background: #090A1A;
+  background: #111111;
 }
 
 .latest_articles_card {
@@ -6901,14 +6879,14 @@ body .gamfi-explore-content .project-item {
 }
 
 .article_details h2 {
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 30px;
   margin-bottom: 0px;
   color: rgba(163, 255, 18, 0.7);
-  cursor: pointer;
+  cursor: poSpace Grotesk;
 }
 
 .article_details h2:hover {
@@ -6916,7 +6894,7 @@ body .gamfi-explore-content .project-item {
 }
 
 .article_details h2 span {
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -6927,7 +6905,7 @@ body .gamfi-explore-content .project-item {
 }
 
 .article_details h3 a {
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
@@ -6939,7 +6917,7 @@ body .gamfi-explore-content .project-item {
 }
 
 .article_details p {
-  font-family: "Inter", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -6949,7 +6927,7 @@ body .gamfi-explore-content .project-item {
 }
 
 .article_details a {
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -6982,7 +6960,7 @@ body .gamfi-explore-content .project-item {
 }
 
 .article_details2 h4 a {
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 30px;
@@ -6999,7 +6977,7 @@ body .gamfi-explore-content .project-item {
 }
 
 .article_details2 h4 a strong {
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 30px;
@@ -7020,13 +6998,13 @@ body .gamfi-explore-content .project-item {
       -ms-flex-pack: justify;
           justify-content: space-between;
   width: 100%;
-  font-family: "Inter", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 28px;
   color: rgba(255, 255, 255, 0.7);
-  cursor: pointer;
+  cursor: poSpace Grotesk;
 }
 
 .article_details_bgshape {
@@ -7045,13 +7023,13 @@ body .gamfi-explore-content .project-item {
 .blog-detail-conent {
   padding-top: 60px;
   padding-bottom: 140px;
-  background: #090A1A;
+  background: #111111;
 }
 
 .blog-detail-conent .blog-area .blog-description .des {
   font-size: 18px;
   line-height: 36px;
-  font-family: Russo One;
+  font-family: Space Grotesk;
 }
 
 .blog-detail-conent .blog-area .blog-description .blockquote {
@@ -7063,7 +7041,6 @@ body .gamfi-explore-content .project-item {
   content: "";
   height: 86px;
   width: 20px;
-  background: url("../images/blog/block-code.png");
   top: 15px;
 }
 
@@ -7246,7 +7223,7 @@ body .gamfi-explore-content .project-item {
   color: #7ABB1B;
   margin-bottom: 10px;
   display: block;
-  font-family: Russo One;
+  font-family: Space Grotesk;
 }
 
 .blog-detail-conent .blog-area .about-blog .blog-contact .next-item {
@@ -7273,7 +7250,7 @@ body .gamfi-explore-content .project-item {
   color: #7ABB1B;
   margin-bottom: 10px;
   display: block;
-  font-family: Russo One;
+  font-family: Space Grotesk;
 }
 
 .blog-detail-conent .blog-area .about-blog .blog-contact .next-item .next-text h5 a,
@@ -7432,7 +7409,7 @@ body .gamfi-explore-content .project-item {
   -webkit-transition: 0.4s;
   transition: 0.4s;
   line-height: 36px;
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -7473,7 +7450,7 @@ body .gamfi-explore-content .project-item {
 .post-item .recent-content .recent-text span {
   margin-bottom: 10px;
   display: block;
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -7550,7 +7527,7 @@ div.latest-item .hover-shape-bg {
 }
 
 .news-letter-item h4 {
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -7575,14 +7552,14 @@ div.latest-item .hover-shape-bg {
   text-transform: uppercase;
   background: #A3FF12;
   border: transparent;
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
 }
 
 /* --- Gamfi Latest-details-content Section CSS ---*/
 .latest-details-content {
   padding-top: 70px;
   padding-bottom: 140px;
-  background: #090A1A;
+  background: #111111;
 }
 
 .latest-details-content .latest-content {
@@ -7609,7 +7586,7 @@ div.latest-item .hover-shape-bg {
 }
 
 .latest-item .sub-inner a {
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -7632,7 +7609,7 @@ div.latest-item .hover-shape-bg {
   -webkit-transition: 0.4s;
   transition: 0.4s;
   text-transform: uppercase;
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 30px;
@@ -7669,6 +7646,9 @@ div.latest-item .hover-shape-bg {
   margin-left: auto;
 }
 
+.dimmed {
+  opacity: .5;
+}
 .staking_bradcome_right ul {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -7683,7 +7663,7 @@ div.latest-item .hover-shape-bg {
 }
 
 .staking_bradcome_right ul li h6 {
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -7694,7 +7674,7 @@ div.latest-item .hover-shape-bg {
 }
 
 .staking_bradcome_right ul li h5 {
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 30px;
@@ -7704,7 +7684,7 @@ div.latest-item .hover-shape-bg {
 }
 
 .staking_flip_card_sect {
-  background: #090A1A;
+  background: #111111;
   padding-bottom: 110px;
 }
 
@@ -7776,7 +7756,7 @@ div.latest-item .hover-shape-bg {
 }
 
 .staking_flip_card_front_headings h2 {
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 30px;
@@ -7793,7 +7773,6 @@ div.latest-item .hover-shape-bg {
 .staking_flip_card_front_timebg {
   height: 35px;
   width: 196px;
-  background: url("../images/bg/shape-bg.png");
   background-size: cover;
   background-position: right center;
   background-repeat: no-repeat;
@@ -7820,7 +7799,7 @@ div.latest-item .hover-shape-bg {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -7836,7 +7815,7 @@ div.latest-item .hover-shape-bg {
 }
 
 .staking_apy h3 {
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -7868,7 +7847,7 @@ div.latest-item .hover-shape-bg {
 }
 
 .staking_flip_card_front_list ul li span {
-  font-family: "Inter", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -7877,7 +7856,7 @@ div.latest-item .hover-shape-bg {
 }
 
 .staking_flip_card_front_list ul li strong {
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -7904,7 +7883,7 @@ div.latest-item .hover-shape-bg {
   width: 46.5%;
   height: 40px;
   background: rgba(255, 255, 255, 0.2);
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -7925,7 +7904,7 @@ div.latest-item .hover-shape-bg {
 }
 
 .staking_flip_card_front_reward h6 {
-  font-family: "Inter", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -7935,7 +7914,7 @@ div.latest-item .hover-shape-bg {
 }
 
 .staking_flip_card_front_reward h5 {
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -7966,7 +7945,6 @@ div.latest-item .hover-shape-bg {
   position: absolute;
   top: 0px;
   left: 0px;
-  background: url("../images/bg/staking_flip_card_blur_img.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -7981,7 +7959,7 @@ div.latest-item .hover-shape-bg {
 }
 
 .staking_flip_card_back_headings h2 {
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 30px;
@@ -8027,7 +8005,7 @@ div.latest-item .hover-shape-bg {
 }
 
 .staking_flip_card_back_form form span {
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -8061,7 +8039,7 @@ div.latest-item .hover-shape-bg {
   max-width: 215px;
   border: none;
   outline: none;
-  font-family: "Inter", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
@@ -8075,7 +8053,7 @@ div.latest-item .hover-shape-bg {
   background: rgba(255, 255, 255, 0.2);
   border: none;
   outline: none;
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -8095,7 +8073,7 @@ div.latest-item .hover-shape-bg {
   width: 100%;
   height: 40px;
   background: #6D4AFE;
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -8145,7 +8123,7 @@ div.latest-item .hover-shape-bg {
 }
 
 .lq_flip_card_headings h2 {
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -8160,7 +8138,7 @@ div.latest-item .hover-shape-bg {
 }
 
 .lq_flip_card_headings h3 {
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -8208,7 +8186,7 @@ div.latest-item .hover-shape-bg {
 
 .lq_flip_front_card_bottom ul li button {
   padding: 0px;
-  font-family: "Inter", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -8277,7 +8255,6 @@ div.latest-item .hover-shape-bg {
   z-index: 0;
   top: 0px;
   left: 0px;
-  background: url("../images/bg/lq_fleep_card_blur_img.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -8296,7 +8273,7 @@ div.latest-item .hover-shape-bg {
 }
 
 .staking4_time_counter .timer ul li {
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 30px;
@@ -8305,7 +8282,7 @@ div.latest-item .hover-shape-bg {
 }
 
 .staking4_time_counter .timer ul li span {
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -8314,7 +8291,7 @@ div.latest-item .hover-shape-bg {
 }
 
 .project-form-list h4 {
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -8324,7 +8301,7 @@ div.latest-item .hover-shape-bg {
 }
 
 .project-form-list h6 {
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -8358,7 +8335,7 @@ div.latest-item .hover-shape-bg {
   background: rgba(255, 255, 255, 0.2);
   height: 60px;
   width: 156px;
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -8379,7 +8356,7 @@ div.latest-item .hover-shape-bg {
 }
 
 .staking4_table_sect {
-  background: #090A1A;
+  background: #111111;
 }
 
 .table_col1 {
@@ -8415,7 +8392,7 @@ div.latest-item .hover-shape-bg {
   height: 40px;
   width: 120px;
   padding: 0px;
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -8431,7 +8408,7 @@ div.latest-item .hover-shape-bg {
   background: #1A1B30;
   padding: 18px 25px;
   margin-bottom: 20px;
-  cursor: pointer;
+  cursor: poSpace Grotesk;
 }
 
 .gamfi-farming-content .list-content {
@@ -8496,7 +8473,7 @@ div.latest-item .hover-shape-bg {
   -webkit-transition: 0.4S;
   transition: 0.4S;
   text-transform: uppercase;
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   position: relative;
   z-index: 3;
 }
@@ -8553,12 +8530,12 @@ div.latest-item .hover-shape-bg {
 .expeand-centent .unit {
   color: #A3FF12;
   font-size: 22px;
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
 }
 
 .expeand-centent .icon-arrow_up {
   padding: 10px;
-  cursor: pointer;
+  cursor: poSpace Grotesk;
 }
 
 .gamfi-farming-content .expeand-centent {
@@ -8574,7 +8551,7 @@ div.latest-item .hover-shape-bg {
 
 .gamfi-farming-content .expeand-arrow {
   padding: 10px;
-  cursor: pointer;
+  cursor: poSpace Grotesk;
 }
 
 .gamfi-farming-content .expeand-arrow .expeand-arrow {
@@ -8631,7 +8608,7 @@ div.latest-item .hover-shape-bg {
 }
 
 .gamfi-farming-table {
-  background: #090A1A;
+  background: #111111;
 }
 
 .gamfi-farming-table table {
@@ -8639,7 +8616,7 @@ div.latest-item .hover-shape-bg {
 }
 
 .gamfi-farming-table tr th {
-  font-family: "Inter", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   color: rgba(255, 255, 255, 0.7);
   font-weight: 400;
   text-transform: uppercase;
@@ -8681,7 +8658,7 @@ div.latest-item .hover-shape-bg {
 /*--- leaderboard page style ---*/
 /*--- Gamfi Leaderboard Section CSS ---*/
 .leaderboard-table-list {
-  background: #090A1A;
+  background: #111111;
 }
 
 .leaderboard-table-list table {
@@ -8691,7 +8668,7 @@ div.latest-item .hover-shape-bg {
 }
 
 .leaderboard-table-list tr th {
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   color: rgba(255, 255, 255, 0.7);
   font-weight: 400;
   text-transform: uppercase;
@@ -8738,7 +8715,7 @@ div.latest-item .hover-shape-bg {
 /*--- FAQ screen css ---*/
 .faq_screen_sect {
   padding: 64px 0px 140px 0px;
-  background: #090a1a;
+  background: #111111;
 }
 
 .faq_screen_tab_sect {
@@ -8753,13 +8730,13 @@ div.latest-item .hover-shape-bg {
 }
 
 .faq_screen_tab ul li {
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 50px;
   color: rgba(255, 255, 255, 0.7);
-  cursor: pointer;
+  cursor: poSpace Grotesk;
 }
 
 .faq_screen_tab ul li span {
@@ -8777,7 +8754,7 @@ div.latest-item .hover-shape-bg {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -8801,10 +8778,10 @@ div.latest-item .hover-shape-bg {
 }
 
 .faq_content_sect .accordion {
-  cursor: pointer;
+  cursor: poSpace Grotesk;
   background: transparent;
   width: 100%;
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
@@ -8869,7 +8846,7 @@ div.latest-item .hover-shape-bg {
 
 .faq_content_sect .accordion-panel p {
   padding: 0px;
-  font-family: "Inter", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -8883,7 +8860,7 @@ div.latest-item .hover-shape-bg {
 /*--- tier pages style ---*/
 /*--- Tier ---*/
 .gamfi_tier_sect {
-  background: #090A1A;
+  background: #111111;
   padding-top: 70px;
   padding-bottom: 110px;
   position: relative;
@@ -8941,7 +8918,7 @@ div.latest-item .hover-shape-bg {
 }
 
 .gamfi_tier_card h2 {
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 36px;
@@ -8952,7 +8929,7 @@ div.latest-item .hover-shape-bg {
 }
 
 .gamfi_tier_card h3 {
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 22px;
@@ -8968,7 +8945,7 @@ div.latest-item .hover-shape-bg {
 }
 
 .gamfi_tier_card p {
-  font-family: Inter;
+  font-family: Space Grotesk;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -8980,7 +8957,7 @@ div.latest-item .hover-shape-bg {
 }
 
 .gamfi_tier_card h4 {
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -9010,7 +8987,7 @@ div.latest-item .hover-shape-bg {
 
 .tier_v2_col_headings h2 {
   margin-top: 30px;
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 36px;
@@ -9020,7 +8997,7 @@ div.latest-item .hover-shape-bg {
 }
 
 .tier_v2_col_headings h3 {
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
@@ -9109,7 +9086,7 @@ div.latest-item .hover-shape-bg {
 }
 
 .tier_v2_col_body ul li h4 {
-  font-family: "Inter", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -9119,7 +9096,7 @@ div.latest-item .hover-shape-bg {
 }
 
 .tier_v2_col_body ul li h5 {
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -9139,7 +9116,7 @@ div.latest-item .hover-shape-bg {
 
 /*--- Tier V3 ---*/
 .gamfi_tier_v3_sect {
-  background: #090A1A;
+  background: #111111;
   padding-top: 70px;
   padding-bottom: 140px;
 }
@@ -9156,7 +9133,7 @@ div.latest-item .hover-shape-bg {
 }
 
 .tvl_headings h2 {
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
@@ -9166,7 +9143,7 @@ div.latest-item .hover-shape-bg {
 }
 
 .tvl_headings h3 {
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 28px;
@@ -9177,7 +9154,7 @@ div.latest-item .hover-shape-bg {
 }
 
 .tvl_list ul li {
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -9227,7 +9204,7 @@ div.latest-item .hover-shape-bg {
 }
 
 .tvl_right_card_headings h3 {
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
@@ -9239,28 +9216,24 @@ div.latest-item .hover-shape-bg {
 }
 
 .tvl_right_card_headings1 {
-  background: url("../images/bg/TvlBg1.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left top;
 }
 
 .tvl_right_card_headings2 {
-  background: url("../images/bg/TvlBg2.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left top;
 }
 
 .tvl_right_card_headings3 {
-  background: url("../images/bg/TvlBg3.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left top;
 }
 
 .tvl_right_card_headings4 {
-  background: url("../images/bg/TvlBg4.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left top;
@@ -9302,7 +9275,7 @@ div.latest-item .hover-shape-bg {
   background: rgba(30, 31, 53, 0.7);
   -webkit-backdrop-filter: blur(10px);
           backdrop-filter: blur(10px);
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -9319,7 +9292,7 @@ div.latest-item .hover-shape-bg {
 }
 
 .tokenomics_section {
-  background: #090A1A;
+  background: #111111;
   padding-top: 0px;
   padding-bottom: 105px;
 }
@@ -9376,7 +9349,7 @@ div.latest-item .hover-shape-bg {
 }
 
 .tokenomics_contents_left h3 {
-  font-family: Russo One;
+  font-family: Space Grotesk;
   font-style: normal;
   font-weight: normal;
   font-size: 22px;
@@ -9429,7 +9402,7 @@ div.latest-item .hover-shape-bg {
 }
 
 .tokenomics_list_text h4 {
-  font-family: Inter;
+  font-family: Space Grotesk;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -9439,7 +9412,7 @@ div.latest-item .hover-shape-bg {
 }
 
 .tokenomics_list_text h5 {
-  font-family: Russo One;
+  font-family: Space Grotesk;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -9531,7 +9504,7 @@ div.latest-item .hover-shape-bg {
 }
 
 .governanc_content_section {
-  background: #090A1A;
+  background: #111111;
   padding-bottom: 140px;
   position: relative;
   z-index: 3;
@@ -9555,7 +9528,7 @@ div.latest-item .hover-shape-bg {
 }
 
 .governanc_content_right_card h2 {
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -9588,7 +9561,7 @@ div.latest-item .hover-shape-bg {
 }
 
 .governanc_content_right_card ul li span {
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -9597,7 +9570,7 @@ div.latest-item .hover-shape-bg {
 }
 
 .governanc_content_right_card ul li strong {
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -9625,7 +9598,7 @@ div.latest-item .hover-shape-bg {
 .governanc_content_right_card_btns button {
   height: 60px;
   width: 100%;
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -9661,7 +9634,7 @@ div.latest-item .hover-shape-bg {
 }
 
 .governanc_content_left_hash_card h2 {
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -9679,7 +9652,7 @@ div.latest-item .hover-shape-bg {
 }
 
 .governanc_content_left_hash_card h3 {
-  font-family: "Inter", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -9706,7 +9679,7 @@ div.latest-item .hover-shape-bg {
 }
 
 .governanc_content_left_hash_card_stutas h4 {
-  font-family: "Inter", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -9717,7 +9690,7 @@ div.latest-item .hover-shape-bg {
 }
 
 .governanc_content_left_hash_card_stutas h4 span {
-  font-family: "Inter", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -10293,7 +10266,7 @@ div.latest-item .hover-shape-bg {
 }
 
 .governanc_content_left_hash_card ul li h5 {
-  font-family: "Inter", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -10317,7 +10290,7 @@ div.latest-item .hover-shape-bg {
   outline: none;
   border: none;
   padding: 0px;
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -10327,13 +10300,13 @@ div.latest-item .hover-shape-bg {
 }
 
 .governanc_details_back_btn a span {
-  font-family: "Inter", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   margin-right: 10px;
   font-size: 18px;
 }
 
 .governanc_details_heading h2 {
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 36px;
@@ -10343,7 +10316,7 @@ div.latest-item .hover-shape-bg {
 }
 
 .governanc_details_heading h3 {
-  font-family: "Inter", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -10373,7 +10346,7 @@ div.latest-item .hover-shape-bg {
 }
 
 .governanc_details_heading h4 {
-  font-family: "Inter", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -10450,7 +10423,7 @@ div.latest-item .hover-shape-bg {
 }
 
 .cast_your_vote_card h3 {
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -10490,7 +10463,7 @@ div.latest-item .hover-shape-bg {
           justify-content: flex-start;
   padding: 0px 30px;
   border-right: 1px solid rgba(255, 255, 255, 0.1);
-  cursor: pointer;
+  cursor: poSpace Grotesk;
 }
 
 .cast_your_vote_radio .radio_container {
@@ -10498,13 +10471,13 @@ div.latest-item .hover-shape-bg {
   position: relative;
   padding-left: 35px;
   margin-bottom: 12px;
-  cursor: pointer;
+  cursor: poSpace Grotesk;
   font-size: 22px;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -10527,7 +10500,7 @@ div.latest-item .hover-shape-bg {
 .cast_your_vote_radio .radio_container input {
   position: absolute;
   opacity: 0;
-  cursor: pointer;
+  cursor: poSpace Grotesk;
   height: 0;
   width: 0;
 }
@@ -10571,7 +10544,7 @@ div.latest-item .hover-shape-bg {
   background: #6D4AFE;
   height: 60px;
   width: 170px;
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -10589,7 +10562,7 @@ div.latest-item .hover-shape-bg {
 }
 
 .governanc_details_text h4 {
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -10599,7 +10572,7 @@ div.latest-item .hover-shape-bg {
 }
 
 .governanc_details_text p {
-  font-family: "Inter", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -10624,7 +10597,7 @@ div.latest-item .hover-shape-bg {
 }
 
 .governce_vote_table ul li h2 {
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -10634,7 +10607,7 @@ div.latest-item .hover-shape-bg {
 }
 
 .governce_vote_table ul li h3 {
-  font-family: "Inter", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -10646,7 +10619,7 @@ div.latest-item .hover-shape-bg {
 
 .governce_vote_table ul li h4 {
   margin-bottom: 0px;
-  font-family: "Inter", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -10676,7 +10649,7 @@ div.latest-item .hover-shape-bg {
 
 .governce_vote_table ul li h5 {
   margin-bottom: 0px;
-  font-family: "Inter", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -10689,7 +10662,7 @@ div.latest-item .hover-shape-bg {
 
 .governce_vote_table ul li h6 {
   margin-bottom: 0px;
-  font-family: "Inter", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -10705,7 +10678,7 @@ div.latest-item .hover-shape-bg {
 
 .governance_vote_modal_form h4 {
   margin-bottom: 0px;
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -10715,7 +10688,7 @@ div.latest-item .hover-shape-bg {
 
 .governance_vote_modal_form h3 {
   margin-bottom: 0px;
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
@@ -10728,7 +10701,7 @@ div.latest-item .hover-shape-bg {
 }
 
 .governance_vote_modal_form form span {
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -10742,7 +10715,7 @@ div.latest-item .hover-shape-bg {
   height: 60px;
   outline: none;
   background: transparent;
-  font-family: "Inter", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
@@ -10758,7 +10731,7 @@ div.latest-item .hover-shape-bg {
   border: none;
   outline: none;
   background: #6D4AFE;
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -10775,7 +10748,7 @@ div.latest-item .hover-shape-bg {
 }
 
 .current_results_progress_content p {
-  font-family: "Inter", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -10825,7 +10798,7 @@ div.latest-item .hover-shape-bg {
 */
 .governanc_content_right_card ul li p {
   margin-bottom: 0px;
-  font-family: "Inter", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -10849,7 +10822,7 @@ div.latest-item .hover-shape-bg {
 /*--- connect wallet pages style ---*/
 /*--- Connect Wallet CSS ---*/
 .connect_wallet_section {
-  background: #090A1A;
+  background: #111111;
   padding-top: 96px;
   padding-bottom: 140px;
   -webkit-backdrop-filter: blur(10px);
@@ -10871,7 +10844,7 @@ div.latest-item .hover-shape-bg {
 }
 
 .connect_wallet_card_headings h2 {
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 36px;
@@ -10883,7 +10856,7 @@ div.latest-item .hover-shape-bg {
 }
 
 .connect_wallet_card_headings p {
-  font-family: "Inter", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -10894,7 +10867,7 @@ div.latest-item .hover-shape-bg {
 }
 
 .choose_network_sect h2 {
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -10950,7 +10923,7 @@ div.latest-item .hover-shape-bg {
   border: 2px solid rgba(255, 255, 255, 0.15);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -10973,7 +10946,7 @@ div.latest-item .hover-shape-bg {
 }
 
 .connect_wallet_content h2 {
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -10984,7 +10957,7 @@ div.latest-item .hover-shape-bg {
 }
 
 .connect_wallet_content p {
-  font-family: "Inter", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -11006,7 +10979,7 @@ div.latest-item .hover-shape-bg {
       -ms-flex-align: center;
           align-items: center;
   padding: 16px 30px;
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -11045,7 +11018,7 @@ div.latest-item .hover-shape-bg {
 }
 
 .gamfi_header_content_right h2 {
-  font-family: Russo One;
+  font-family: Space Grotesk;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -11076,12 +11049,12 @@ div.latest-item .hover-shape-bg {
 
 .kyc_form_sect {
   padding-top: 56px;
-  background: #090A1A;
+  background: #111111;
   padding-bottom: 140px;
 }
 
 .kyc_form h3 {
-  font-family: Russo One;
+  font-family: Space Grotesk;
   font-style: normal;
   font-weight: normal;
   font-size: 22px;
@@ -11092,7 +11065,7 @@ div.latest-item .hover-shape-bg {
 }
 
 .kyc_form p {
-  font-family: Inter;
+  font-family: Space Grotesk;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -11120,7 +11093,7 @@ div.latest-item .hover-shape-bg {
   padding: 17px 20px;
   margin-bottom: 35px;
   position: relative;
-  cursor: pointer;
+  cursor: poSpace Grotesk;
   margin-top: 17px;
 }
 
@@ -11135,7 +11108,7 @@ div.latest-item .hover-shape-bg {
 }
 
 .kyc_country_dropbox h4 {
-  font-family: Inter;
+  font-family: Space Grotesk;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -11187,13 +11160,13 @@ div.latest-item .hover-shape-bg {
   position: relative;
   padding-left: 32px;
   margin-bottom: 0px;
-  cursor: pointer;
+  cursor: poSpace Grotesk;
   font-size: 22px;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  font-family: Russo One;
+  font-family: Space Grotesk;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -11210,7 +11183,7 @@ div.latest-item .hover-shape-bg {
 .kyc_radio_btn .container input {
   position: absolute;
   opacity: 0;
-  cursor: pointer;
+  cursor: poSpace Grotesk;
 }
 
 .kyc_radio_btn .checkmark {
@@ -11257,7 +11230,7 @@ div.latest-item .hover-shape-bg {
 }
 
 .kyc_form .btn_custom {
-  font-family: Russo One;
+  font-family: Space Grotesk;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -11300,7 +11273,7 @@ div.latest-item .hover-shape-bg {
 }
 
 .kyc_qrcode_content h2 {
-  font-family: Russo One;
+  font-family: Space Grotesk;
   font-style: normal;
   font-weight: normal;
   font-size: 22px;
@@ -11348,7 +11321,7 @@ div.latest-item .hover-shape-bg {
 }
 
 .kyc_country_drop_list ul li {
-  font-family: Inter;
+  font-family: Space Grotesk;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -11365,7 +11338,7 @@ div.latest-item .hover-shape-bg {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  cursor: pointer;
+  cursor: poSpace Grotesk;
 }
 
 .kyc_country_drop_list ul li:hover {
@@ -11394,7 +11367,7 @@ div.latest-item .hover-shape-bg {
 }
 
 .kyc_form .upload_docs_sect ul li h4 {
-  font-family: Inter;
+  font-family: Space Grotesk;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -11421,7 +11394,7 @@ div.latest-item .hover-shape-bg {
 }
 
 .kyc_form .upload_docs_sect h3 {
-  font-family: Russo One;
+  font-family: Space Grotesk;
   font-style: normal;
   font-weight: normal;
   font-size: 22px;
@@ -11489,7 +11462,7 @@ div.latest-item .hover-shape-bg {
 }
 
 .upload_doc_check_list ul li {
-  font-family: Inter;
+  font-family: Space Grotesk;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -11530,7 +11503,7 @@ div.latest-item .hover-shape-bg {
 }
 
 .nid_number_sect h3 {
-  font-family: Russo One;
+  font-family: Space Grotesk;
   font-style: normal;
   font-weight: normal;
   font-size: 22px;
@@ -11547,7 +11520,7 @@ div.latest-item .hover-shape-bg {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   height: 60px;
-  font-family: Inter;
+  font-family: Space Grotesk;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -11614,7 +11587,7 @@ div.latest-item .hover-shape-bg {
 }
 
 .kyc_term_and_condtion_sect lable {
-  font-family: Inter;
+  font-family: Space Grotesk;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -11624,7 +11597,7 @@ div.latest-item .hover-shape-bg {
 }
 
 .kyc_term_and_condtion_sect lable a {
-  font-family: Inter;
+  font-family: Space Grotesk;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -11635,7 +11608,7 @@ div.latest-item .hover-shape-bg {
 .kyc_term_and_condtion_sect .container input {
   position: absolute;
   opacity: 0;
-  cursor: pointer;
+  cursor: poSpace Grotesk;
   display: none;
 }
 
@@ -11705,7 +11678,7 @@ div.latest-item .hover-shape-bg {
 }
 
 .kyc_your_documents_content h3 {
-  font-family: Russo One;
+  font-family: Space Grotesk;
   font-style: normal;
   font-weight: normal;
   font-size: 22px;
@@ -11732,7 +11705,7 @@ div.latest-item .hover-shape-bg {
 }
 
 .kyc_your_documents_content ul li p {
-  font-family: Inter;
+  font-family: Space Grotesk;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -11782,7 +11755,7 @@ div.latest-item .hover-shape-bg {
 }
 
 .team_members_info h2 {
-  font-family: Russo One;
+  font-family: Space Grotesk;
   font-style: normal;
   font-weight: normal;
   font-size: 30px;
@@ -11798,7 +11771,7 @@ div.latest-item .hover-shape-bg {
 }
 
 .team_members_info p {
-  font-family: Inter;
+  font-family: Space Grotesk;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -11820,7 +11793,7 @@ div.latest-item .hover-shape-bg {
 }
 
 .team_members_contact ul li strong {
-  font-family: Russo One;
+  font-family: Space Grotesk;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -11830,7 +11803,7 @@ div.latest-item .hover-shape-bg {
 }
 
 .team_members_contact ul li span {
-  font-family: Inter;
+  font-family: Space Grotesk;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -11877,7 +11850,7 @@ div.latest-item .hover-shape-bg {
 /*--- road map pages style ---*/
 /*---- RoadMap ----*/
 .roadmap_duration h6 {
-  font-family: Russo One;
+  font-family: Space Grotesk;
   font-style: normal;
   font-weight: normal;
   font-size: 28px;
@@ -11888,12 +11861,12 @@ div.latest-item .hover-shape-bg {
 
 .gamfi_roadmap {
   padding-bottom: 120px;
-  background: #090A1A;
+  background: #111111;
   position: relative;
 }
 
 .roadmap_sect {
-  background: #090A1A;
+  background: #111111;
   padding-top: 40px;
   position: relative;
   display: -webkit-box;
@@ -12073,7 +12046,7 @@ div.latest-item .hover-shape-bg {
 }
 
 .roadmap_content_box h3 {
-  font-family: Russo One;
+  font-family: Space Grotesk;
   font-style: normal;
   font-weight: normal;
   font-size: 22px;
@@ -12087,7 +12060,7 @@ div.latest-item .hover-shape-bg {
 }
 
 .roadmap_content_box ul li {
-  font-family: Inter;
+  font-family: Space Grotesk;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -12154,7 +12127,7 @@ div.latest-item .hover-shape-bg {
 .roadmap_2021_divider span {
   -webkit-transform: rotate(270deg);
           transform: rotate(270deg);
-  font-family: Russo One;
+  font-family: Space Grotesk;
   font-style: normal;
   font-weight: normal;
   font-size: 22px;
@@ -12186,7 +12159,7 @@ div.latest-item .hover-shape-bg {
 .roadmap_2022_divider span {
   -webkit-transform: rotate(270deg);
           transform: rotate(270deg);
-  font-family: Russo One;
+  font-family: Space Grotesk;
   font-style: normal;
   font-weight: normal;
   font-size: 22px;
@@ -12224,7 +12197,7 @@ div.latest-item .hover-shape-bg {
 }
 
 .get_in_touch_form form span {
-  font-family: Russo One;
+  font-family: Space Grotesk;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -12241,7 +12214,7 @@ div.latest-item .hover-shape-bg {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   background: Transparent;
-  font-family: Inter;
+  font-family: Space Grotesk;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -12258,7 +12231,7 @@ div.latest-item .hover-shape-bg {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   background: Transparent;
-  font-family: Inter;
+  font-family: Space Grotesk;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -12289,7 +12262,7 @@ div.latest-item .hover-shape-bg {
 }
 
 .get_in_touch_contact_content h2 {
-  font-family: Russo One;
+  font-family: Space Grotesk;
   font-style: normal;
   font-weight: normal;
   font-size: 22px;
@@ -12317,7 +12290,7 @@ div.latest-item .hover-shape-bg {
 }
 
 .contact_info_content .contact_info_symbol h5 {
-  font-family: Russo One;
+  font-family: Space Grotesk;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -12328,7 +12301,7 @@ div.latest-item .hover-shape-bg {
 }
 
 .contact_info_content .contact_info_symbol h6 {
-  font-family: Inter;
+  font-family: Space Grotesk;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -12338,7 +12311,7 @@ div.latest-item .hover-shape-bg {
 }
 
 .contact_info_content .contact_info_symbol a {
-  font-family: Inter;
+  font-family: Space Grotesk;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -12549,7 +12522,7 @@ div.latest-item .hover-shape-bg {
   position: relative;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
 }
 
 .readon {
@@ -12579,7 +12552,7 @@ div.latest-item .hover-shape-bg {
   position: relative;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   color: #FFFFFF;
   border: 2px solid #2E2F3B;
   padding: 12px 25px 9px;
@@ -12601,7 +12574,7 @@ div.latest-item .hover-shape-bg {
 
 .white-bg-btn {
   background: #FFFFFF;
-  color: #090a1a;
+  color: #111111;
   border: 2px solid #FFFFFF;
   padding: 10px 20px;
 }
@@ -12622,10 +12595,11 @@ div.latest-item .hover-shape-bg {
 }
 
 .white-btn {
-  background: #FFFFFF;
-  color: #090A1A;
+  background: #3e4cd9;
+  color: #fff;
   margin-left: 25px;
   padding: 13px 32px 11px;
+  text-trasnform: capitalize;
   border: none;
 }
 
@@ -12642,9 +12616,9 @@ div.latest-item .hover-shape-bg {
   position: relative;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   background: #A3FF12;
-  color: #090A1A;
+  color: #111111;
   padding: 19px 50px;
 }
 
@@ -12655,7 +12629,7 @@ div.latest-item .hover-shape-bg {
 }
 
 .banner-btn:hover {
-  color: #090A1A;
+  color: #111111;
 }
 
 .banner-btn:hover .hover-shape1 {
@@ -12671,7 +12645,7 @@ div.latest-item .hover-shape-bg {
   color: #FFFFFF;
   padding: 12px 25px 8px;
   text-transform: uppercase;
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   overflow: hidden;
   display: block;
   -webkit-transition: 0.4s;
@@ -12705,14 +12679,14 @@ div.latest-item .hover-shape-bg {
 }
 
 .view-project-btn .btn-text {
-  font-family: Russo One;
+  font-family: Space Grotesk;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 19px;
   text-align: center;
   text-transform: uppercase;
-  color: #090A1A;
+  color: #111111;
 }
 
 .apply-project-btn {
@@ -12735,7 +12709,7 @@ div.latest-item .hover-shape-bg {
 }
 
 .apply-project-btn .btn-text {
-  font-family: Russo One;
+  font-family: Space Grotesk;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -12767,7 +12741,7 @@ div.latest-item .hover-shape-bg {
 }
 
 .show-more-logo-btn .btn-text {
-  font-family: Russo One;
+  font-family: Space Grotesk;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -12826,7 +12800,7 @@ div.latest-item .hover-shape-bg {
       -ms-flex-pack: center;
           justify-content: center;
   outline: none;
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -12864,7 +12838,7 @@ div.latest-item .hover-shape-bg {
   width: 170px;
   height: 50px;
   background: rgba(255, 255, 255, 0.1);
-  font-family: Russo One;
+  font-family: Space Grotesk;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -12897,10 +12871,10 @@ div.latest-item .hover-shape-bg {
       -ms-flex-pack: center;
           justify-content: center;
   text-transform: uppercase;
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-size: 16px;
   font-weight: 400;
-  color: #090a1a;
+  color: #111111;
   position: relative;
   overflow: hidden;
   -webkit-transition: 0.3s;
@@ -12933,7 +12907,7 @@ div.latest-item .hover-shape-bg {
 }
 
 .theme-btn:hover {
-  color: #090a1a;
+  color: #111111;
 }
 
 .theme-btn:hover .hover-shape1 {
@@ -12971,7 +12945,6 @@ div.latest-item .hover-shape-bg {
 
 /*--- Gamfi Header Section CSS ---*/
 .gamfi-header-section {
-  background-color: #090A1A;
   padding: 25px 0;
 }
 
@@ -12983,7 +12956,7 @@ div.latest-item .hover-shape-bg {
 }
 
 .gamfi-header-section.default-header {
-  background: #090A1A;
+  background: #111111;
   position: relative;
   z-index: 11;
 }
@@ -12992,7 +12965,6 @@ div.latest-item .hover-shape-bg {
   width: 252px;
   height: 100%;
   content: "";
-  background-image: url("../images/bg/header-shape1.png");
   position: absolute;
   top: 0;
   background-repeat: no-repeat;
@@ -13000,12 +12972,10 @@ div.latest-item .hover-shape-bg {
 }
 
 .gamfi-header-section.default-header::after {
-  background-image: url("../images/bg/header-shape1.png");
   left: 0;
 }
 
 .gamfi-header-section.default-header::before {
-  background-image: url("../images/bg/header-shape2.png");
   right: 0;
 }
 
@@ -13065,7 +13035,7 @@ div.latest-item .hover-shape-bg {
   display: block;
   background: #222231;
   font-size: 16px;
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   background: rgba(19, 20, 44, 0.98);
   -webkit-backdrop-filter: blur(4px);
           backdrop-filter: blur(4px);
@@ -13084,7 +13054,7 @@ div.latest-item .hover-shape-bg {
 }
 
 .disconnect-metamask {
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   text-transform: uppercase;
 }
 
@@ -13094,6 +13064,15 @@ div.latest-item .hover-shape-bg {
 
 .gamfi-header-section .heaader-inner-area ul li:not(.connect-btn-wrapper) ul li a:hover {
   color: #FFFFFF;
+}
+
+.header-menu {
+  flex: 1 0 auto;
+
+}
+
+.gamfi-logo-area {
+  width: 100%;
 }
 
 .gamfi-header-section .header-menu ul li {
@@ -13122,8 +13101,8 @@ div.latest-item .hover-shape-bg {
 .gamfi-header-section .header-menu ul li a {
   display: block;
   color: #FFFFFF;
-  font-family: "Russo One", sans-serif;
-  font-weight: 400;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 500;
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -13167,6 +13146,10 @@ div.latest-item .hover-shape-bg {
   font-size: 10px;
 }
 
+.connect-btn {
+  border-radius: 5px;
+}
+
 .gamfi-header-section .gamfi-btn-area ul li:not(.connect-btn-wrapper) ul li a {
   color: rgba(255, 255, 255, 0.7);
 }
@@ -13189,7 +13172,7 @@ div.latest-item .hover-shape-bg {
   background: rgba(255, 255, 255, 0.7);
   -webkit-transition: all .5s ease;
   transition: all .5s ease;
-  cursor: pointer;
+  cursor: poSpace Grotesk;
   list-style: none;
 }
 
@@ -13238,7 +13221,7 @@ div.latest-item .hover-shape-bg {
   display: block;
   z-index: 99;
   right: 57px;
-  cursor: pointer;
+  cursor: poSpace Grotesk;
   -webkit-transition: all .3s ease;
   transition: all .3s ease;
 }
@@ -13301,7 +13284,7 @@ div.latest-item .hover-shape-bg {
   padding: 10px 0;
   line-height: 30px;
   width: 100%;
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
 }
 
 .gamfi-header-section .mobile-navbar-menu .nav-menu li li a {
@@ -13320,9 +13303,9 @@ div.latest-item .hover-shape-bg {
   display: block;
   height: 40px;
   width: 40px;
-  cursor: pointer;
+  cursor: poSpace Grotesk;
   width: 100%;
-  cursor: pointer;
+  cursor: poSpace Grotesk;
   top: 0;
   height: 50px;
 }
@@ -13455,7 +13438,7 @@ div.latest-item .hover-shape-bg {
 }
 
 .home_menu_list_headings h2 {
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -13536,7 +13519,7 @@ div.latest-item .hover-shape-bg {
   -webkit-box-pack: start !important;
       -ms-flex-pack: start !important;
           justify-content: flex-start !important;
-  font-family: "Russo One", sans-serif !important;
+  font-family: "Space Grotesk", sans-serif !important;
   font-style: normal;
   font-weight: 400 !important;
   font-size: 16px !important;
@@ -13603,7 +13586,7 @@ div.latest-item .hover-shape-bg {
 }
 
 .menu_headings h2 {
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -13620,7 +13603,7 @@ div.latest-item .hover-shape-bg {
 }
 
 .menu_column ul li span {
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 10px;
@@ -13662,7 +13645,7 @@ div.latest-item .hover-shape-bg {
 }
 
 .menu_column ul li a {
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -13717,7 +13700,7 @@ div.latest-item .hover-shape-bg {
 
 .gamfi-header-section .header-menu ul li .menu_column ul li a {
   display: block;
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -13787,7 +13770,6 @@ div.latest-item .hover-shape-bg {
 
 /*--- Gamfi Breadcrumbs Section CSS ---*/
 .gamfi-breadcrumbs-section {
-  background: url("../images/bg/breadcrumbs-bg.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -13797,7 +13779,6 @@ div.latest-item .hover-shape-bg {
 .gamfi-breadcrumbs-section.breadcrumbs-style2 {
   padding-top: 130px;
   padding-bottom: 115px;
-  background: url("../images/bg/breadcrumbs-bg2.jpg");
   position: relative;
   background-position: bottom center;
   z-index: 2;
@@ -13808,7 +13789,7 @@ div.latest-item .hover-shape-bg {
   text-transform: uppercase;
   margin-right: 24px;
   position: relative;
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
 }
 
 .breadcrumbs-link::before {
@@ -13840,7 +13821,7 @@ div.latest-item .hover-shape-bg {
 .breadcrumbs-social a {
   color: #B8B8BD;
   text-transform: uppercase;
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
 }
 
 .breadcrumbs-social a i {
@@ -13877,7 +13858,7 @@ div.latest-item .hover-shape-bg {
 
 .breadcrumbs-form .submit i {
   font-size: 15px;
-  cursor: pointer;
+  cursor: poSpace Grotesk;
   padding: 0;
   color: rgba(255, 255, 255, 0.7);
   position: relative;
@@ -13914,7 +13895,7 @@ div.latest-item .hover-shape-bg {
 /*--- project breadcrumb style ---*/
 .project-clasic-breadcum-sect {
   height: auto;
-  background: #090A1A;
+  background: #111111;
   position: relative;
 }
 
@@ -13932,7 +13913,6 @@ div.latest-item .hover-shape-bg {
 
 /*--- blog breadcrumb style ---*/
 .gamfi-breadcrumbs-section.blog-breadcrumbs {
-  background: url("../images/blog/blog-bg.jpg");
   background-size: cover;
   padding-top: 410px;
   padding-bottom: 45px;
@@ -13971,7 +13951,7 @@ div.latest-item .hover-shape-bg {
 
 /*--- account style ---*/
 .account__area {
-  background: #090A1A;
+  background: #111111;
   position: relative;
   padding: 96px 0px 0px 0px;
 }
@@ -14027,7 +14007,7 @@ div.latest-item .hover-shape-bg {
 }
 
 .account__title h2 {
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-weight: 400;
   font-size: 36px;
   line-height: 43px;
@@ -14038,7 +14018,7 @@ div.latest-item .hover-shape-bg {
 }
 
 .account__title h3 {
-  font-family: "Inter", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 28px;
@@ -14058,7 +14038,7 @@ div.latest-item .hover-shape-bg {
 }
 
 .account__form.signInForm h3 {
-  font-family: Inter;
+  font-family: Space Grotesk;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -14072,7 +14052,7 @@ div.latest-item .hover-shape-bg {
 }
 
 .account__form.ForgotPassForm h3 {
-  font-family: Inter;
+  font-family: Space Grotesk;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -14091,7 +14071,7 @@ div.latest-item .hover-shape-bg {
   background: #6D4AFE;
   border: none;
   outline: none;
-  font-family: Russo One;
+  font-family: Space Grotesk;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -14111,7 +14091,7 @@ div.latest-item .hover-shape-bg {
 }
 
 .item-bottom h4 {
-  font-family: "Inter", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 28px;
@@ -14120,7 +14100,7 @@ div.latest-item .hover-shape-bg {
 }
 
 .item-bottom h4 a {
-  font-family: "Inter", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 28px;
@@ -14164,7 +14144,7 @@ div.latest-item .hover-shape-bg {
 
 .input__group label {
   margin-bottom: 5px;
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 45px;
@@ -14180,7 +14160,7 @@ div.latest-item .hover-shape-bg {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   outline: none;
-  font-family: "Inter", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 40px;
@@ -14280,7 +14260,7 @@ div.latest-item .hover-shape-bg {
 }
 
 .account__form .item-text label {
-  font-family: "Inter", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 16px;
@@ -14298,7 +14278,7 @@ div.latest-item .hover-shape-bg {
 }
 
 .account__form .item-text a {
-  font-family: "Inter", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 45px;
@@ -14313,7 +14293,7 @@ div.latest-item .hover-shape-bg {
 
 /*--- Gamfi Form Content Section CSS ---*/
 .apply-section {
-  background-color: #090A1A;
+  background-color: #111111;
 }
 
 .input-list {
@@ -14327,7 +14307,7 @@ div.latest-item .hover-shape-bg {
 }
 
 .input-list label {
-  cursor: pointer;
+  cursor: poSpace Grotesk;
 }
 
 .input-list input {
@@ -14369,7 +14349,7 @@ div.latest-item .hover-shape-bg {
 
 /* --- Gamfi footer Section CSS ---*/
 .gamfi-footer-section {
-  background-color: #090A1A;
+  background-color: #111111;
   position: relative;
 }
 
@@ -14381,7 +14361,6 @@ div.latest-item .hover-shape-bg {
 }
 
 .gamfi-footer-section .footer-area {
-  background: url("../images/bg/footer-bg.jpg");
   background-repeat: no-repeat;
   background-position: center bottom;
   background-size: cover;
@@ -14414,7 +14393,7 @@ div.latest-item .hover-shape-bg {
 .footer-cta-area .footer-link input[type="submit"] {
   border: none;
   text-transform: uppercase;
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   padding: 17px 50px;
   position: relative;
   z-index: 3;
@@ -14471,7 +14450,6 @@ div.latest-item .hover-shape-bg {
 
 .footer-icon-list i {
   color: #FFFFFF;
-  background: url("../images/icons/icon-image.png");
   width: 60px;
   height: 60px;
   line-height: 60px;
@@ -14509,6 +14487,10 @@ div.latest-item .hover-shape-bg {
 
 .copyright-area .gafi {
   color: rgba(255, 255, 255, 0.7);
+}
+
+.copyright-area {
+  font-size: 12px;
 }
 
 .copyright-area .gafi:hover {
@@ -14581,7 +14563,7 @@ div.latest-item .hover-shape-bg {
 
 .gamfi_footer_btn_content a {
   position: absolute;
-  font-family: Russo One;
+  font-family: Space Grotesk;
   font-style: normal;
   font-weight: normal;
   font-size: 22px;
@@ -14632,7 +14614,7 @@ div.latest-item .hover-shape-bg {
   padding: 15px 30px;
   margin-bottom: 20px;
   position: relative;
-  cursor: pointer;
+  cursor: poSpace Grotesk;
 }
 
 .modal-content .heading-list li span {
@@ -14653,7 +14635,7 @@ div.latest-item .hover-shape-bg {
 
 .modal-content .heading-list li a {
   color: #FFFFFF;
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
 }
 
 .modal-content .modal-title {
@@ -14701,7 +14683,6 @@ div.latest-item .hover-shape-bg {
 
 #shareIocns .popup-share-icons li i {
   color: #FFFFFF;
-  background: url("../images/icons/icon-image.png");
   width: 60px;
   height: 60px;
   line-height: 60px;
@@ -14765,7 +14746,7 @@ div.latest-item .hover-shape-bg {
   border: 1px solid #2E2F3C;
   color: #FFFFFF;
   padding: 10px 20px;
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   text-transform: uppercase;
   -webkit-transition: 0.4s;
   transition: 0.4s;
@@ -14869,7 +14850,7 @@ div.latest-item .hover-shape-bg {
 
 .circle-progress-text {
   fill: #FFFFFF;
-  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-weight: 400;
   font-size: 30px;
   line-height: 30px;
